@@ -21,11 +21,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Models", "Servi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contact.API.Services", "Services\ContactAPI\Contact.API.Services\Contact.API.Services.csproj", "{4130067E-E0F8-4199-9706-63EA3EC96C1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.API.Infrastructure", "Services\ResAPI\Reservation.API.Infrastructure\Reservation.API.Infrastructure.csproj", "{A15CE89B-D78A-49FF-9FC9-368B8B655381}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservation.API.Infrastructure", "Services\ResAPI\Reservation.API.Infrastructure\Reservation.API.Infrastructure.csproj", "{A15CE89B-D78A-49FF-9FC9-368B8B655381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.API.Services", "Services\ResAPI\Reservation.API.Services\Reservation.API.Services.csproj", "{4A53A136-EEC7-40DA-BF81-2BFE85626381}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservation.API.Services", "Services\ResAPI\Reservation.API.Services\Reservation.API.Services.csproj", "{4A53A136-EEC7-40DA-BF81-2BFE85626381}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservation.API.Models", "Services\ResAPI\Reservation.API.Models\Reservation.API.Models.csproj", "{0C67B795-FD48-4E37-9C5C-D0BC11C1ABA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservation.API.Models", "Services\ResAPI\Reservation.API.Models\Reservation.API.Models.csproj", "{0C67B795-FD48-4E37-9C5C-D0BC11C1ABA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A7CDE983-F52D-4C21-AFCB-B8469D70D622}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
